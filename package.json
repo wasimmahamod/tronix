@@ -1,8 +1,8 @@
 {
-  "name": "oreby",
+  "name": "tronix",
   "version": "1.0.0",
   "private": true,
-  "description": "oreby",
+  "description": "tronix",
   "author": "wasimmahamod",
   "keywords": [
     "gatsby"
@@ -15,12 +15,23 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.37.0",
+    "@opentelemetry/exporter-collector-grpc": "^0.25.0",
+    "@opentelemetry/sdk-node": "^0.39.1",
+    "@opentelemetry/shim-opentracing": "^1.13.0",
     "autoprefixer": "^10.4.14",
     "gatsby": "^5.10.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-postcss": "^6.10.0",
+    "opentracing": "^0.14.7",
     "postcss": "^8.4.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "^3.3.2"
   }
 }
