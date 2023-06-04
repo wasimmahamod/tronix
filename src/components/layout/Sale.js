@@ -6,11 +6,11 @@ const Sale = () => {
   return (
     <div className="mt-[80px] lg:mt-[160px] ">
       <Container>
-        <h2 className="Headding text-[56px] font-bold text-black">
+        <h2 className="Headding text-[30px] lg:text-[40px] 2xl:text-[56px] font-bold text-black text-center">
           Flash Sale
         </h2>
-        <div className="flex flex-wrap xl:flex-nowrap gap-y-2 xl:gap-y-0 justify-between mt-[43px] ">
-          <div className="w-[376px] h-[603px] rounded-[32px] bg-secandary text-center">
+        <div className="flex flex-wrap 2xl:flex-nowrap gap-y-5 2xl:gap-y-0 justify-between mt-[43px] ">
+          <div className="2xl:w-[376px] 2xl:h-[603px] p-2 rounded-[32px] bg-secandary text-center">
             <h3 className="text-[36px] font-medium text-white mt-12">
               Up to 30% Off!
             </h3>
@@ -41,7 +41,7 @@ const Sale = () => {
               </div>
             </div>
           </div>
-          <div className="w-[376px] h-[603px]  relative z-50">
+          <div className="2xl:w-[376px] 2xl:h-[603px] p-2  relative z-50">
             <div className="rounded-[32px] border border-solid border-primary  ">
               <div className="relative ">
                 <img className="relative z-[-1] " src={SaleImg} alt="" />
@@ -77,7 +77,7 @@ const Sale = () => {
               </div>
             </div>
           </div>
-          <div className="w-[376px] h-[603px]  relative z-50">
+          <div className="2xl:w-[376px] 2xl:h-[603px] p-2  relative z-50">
             <div className="rounded-[32px] border border-solid border-primary  ">
               <div className="relative ">
                 <img className="relative z-[-1] " src={SaleImg} alt="" />
@@ -113,7 +113,7 @@ const Sale = () => {
               </div>
             </div>
           </div>
-          <div className="w-[376px] h-[603px]  relative z-50">
+          <div className="2xl:w-[376px] 2xl:h-[603px] p-2  relative z-50">
             <div className="rounded-[32px] border border-solid border-primary  ">
               <div className="relative ">
                 <img className="relative z-[-1] " src={SaleImg} alt="" />

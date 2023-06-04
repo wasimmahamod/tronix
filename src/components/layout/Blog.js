@@ -6,8 +6,8 @@ const Blog = () => {
   return (
     <div className='mt-[100px] xl:mt-[160px] '>
         <Container>
-        <h2 className='Headding text-[56px] font-bold text-black text-center mb-[80px] '>Blog</h2>
-        <div className='flex  flex-wrap  gap-y-2 xl:gap-y-0   justify-between'>
+        <h2 className="Headding text-[30px] lg:text-[40px] 2xl:text-[56px] font-bold text-black text-center">Blog</h2>
+        <div className='flex  flex-wrap  gap-y-5 2xl:gap-y-0   justify-between mt-10 2xl:mt-[80px] '>
             <div className='border border-solid border-primary rounded-[32px]  text-center'>
                 <img className='mx-auto' src={Blogimg} alt="" />
                 <div className='px-8'>

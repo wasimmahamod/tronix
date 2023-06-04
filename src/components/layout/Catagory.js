@@ -7,10 +7,10 @@ import {FcHome} from 'react-icons/fc'
 
 const Catagory = () => {
   return (
-    <div className='mt-[80px] '>
+    <div className='mt-10 2xl:mt-[80px] '>
         <Container>
             <h1 className='catagoryHeadding font-bold text-[36px] text-black'>Category</h1>
-            <div className='flex flex-wrap gap-x-8 mt-8 justify-between gap-y-3 lg:gap-y-0'>
+            <div className='flex justify-center flex-wrap  gap-x-8 mt-8 2xl:justify-between gap-y-3 2xl:gap-y-0'>
                 <div className='flex items-center gap-x-2.5 p-3 border border-solid border-[#A7A7A7] rounded-[8px] '>
                     <BsLaptop/>
                     <h3 className='text-lg font-normal text-black '>Computer & Laptop</h3>

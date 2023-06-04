@@ -6,10 +6,10 @@ import FeatureRightImg from '../../images/fetureRightimg.png'
 
 const Feature = () => {
   return (
-    <div className='mt-[100px] lg:mt-[160px] '>
+    <div className='mt-[60px] lg:mt-[160px] '>
         <Container>
             <Title headding='Featured Products'/>
-            <div className='2xl:flex flex-wrap xl:flex-nowrap  gap-x-8   mt-[80px] '>
+            <div className='flex flex-wrap xl:flex-nowrap gap-y-5 2xl:gap-y-0  gap-x-8  mt-10 2xl:mt-[80px] '>
               <div className='text-center border border-solid border-primary 2xl:py-12 2xl:px-[136px] px-5 py-5  rounded-[32px] '>
                 <h3 className='text-2xl lg:text-[36px] font-normal text-black'>Wireless Microphone</h3>
                 <h5 className='text-xl lg:text-2xl mt-2'><del>$29.99</del><span className=' text-secandary '> - $19.99</span></h5>
@@ -39,13 +39,13 @@ const Feature = () => {
               <div>
             <div className='flex flex-wrap  relative z-50 mt-8 lg:mt-0 '>
             <div className='border border-solid border-primary rounded-[32px] flex     gap-x-8 p-2 '>
-                  <img className='relative z-[-1] ' src={FeatureRightImg} alt="" />
-                  <div className='pt-12 pb-10 pr-[83px] '>
+                  <img className='relative z-[-1] mx-auto 2xl:mx-0 ' src={FeatureRightImg} alt="" />
+                  <div className='2xl:pt-12 p-5 2xl:pb-10 2xl:pr-[83px] '>
                     <h3 className='text-base lg:text-lg font-medium text-white bg-secandary lg:py-2.5 py-1 px-2 lg:px-4 rounded-[8px] inline-block mb-8'>Limited Offer</h3>
 
-                    <h4 className='text-2xl xl:w-[293px] font-normal text-black'>Smart Watch New Series</h4>
+                    <h4 className='text-2xl 2xl:w-[293px] font-normal text-black'>Smart Watch New Series</h4>
                 <h5 className='lg:text-2xl mt-2'><del>$29.99</del><span className=' text-secandary '> - $19.99</span></h5>
-                <div className=' flex flex-wrap xl:flex-nowrap  mt-8 gap-x-6 justify-center '>
+                <div className=' flex flex-wrap 2xl:flex-nowrap gap-y-3 2xl:gap-y-0  mt-8 gap-x-6 justify-center '>
                   <div className='w-[80px] h-[80px] rounded-[16px] border border-solid border-primary flex justify-center items-center '>
                  <div className='text-center'>
                  <h2 className='text-2xl font-bold text-secandary'>2</h2>
@@ -69,15 +69,16 @@ const Feature = () => {
                   </div>
                 </div>
             </div>
+  
             <div className='flex flex-wrap   relative z-50 mt-8 '>
-            <div className='border border-solid border-primary rounded-[32px] flex  gap-x-8 p-2'>
-                  <img className='relative z-[-1] ' src={FeatureRightImg} alt="" />
-                  <div className='pt-12 pb-10 pr-[83px] '>
+            <div className='border border-solid border-primary rounded-[32px] flex   gap-x-8 p-2'>
+                  <img className='relative z-[-1] mx-auto 2xl:mx-0 ' src={FeatureRightImg} alt="" />
+                  <div className='2xl:pt-12 p-5 2xl:pb-10 2xl:pr-[83px]  '>
                     <h3 className='text-base lg:text-lg font-medium text-white bg-secandary lg:py-2.5 py-1 px-2 lg:px-4 rounded-[8px] inline-block mb-8'>Limited Offer</h3>
 
                     <h4 className='text-2xl font-normal text-black'>Camera HD + Lens</h4>
                 <h5 className='lg:text-2xl mt-2'><del>$29.99</del><span className=' text-secandary '> - $19.99</span></h5>
-                <div className='flex flex-wrap xl:flex-nowrap  mt-8 gap-x-6 justify-center '>
+                <div className='flex flex-wrap 2xl:flex-nowrap gap-y-3 2xl:gap-y-0  mt-8 gap-x-6 justify-center '>
                   <div className='w-[80px] h-[80px] rounded-[16px] border border-solid border-primary flex justify-center items-center '>
                  <div className='text-center'>
                  <h2 className='text-2xl font-bold text-secandary'>2</h2>

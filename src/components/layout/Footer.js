@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="lg:flex justify-between">
                 <div className='w-2/4'>
                     <img src={Flogo} alt="" />
-                    <p className='text-lg font-normal text-black w-[381px]  leading-[32px] mt-4 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                    <p className='text-lg font-normal text-black w-auto 2xl:w-[381px]  leading-[32px] mt-4 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
                     <ul className='mt-12'>
                         <li className='text-[40px] p-2 rounded-md bg-secandary inline-block text-white'><FiInstagram/></li>
                         <li className='text-[40px] p-2 rounded-md bg-secandary inline-block ml-6 text-white'><FaTwitter/></li>

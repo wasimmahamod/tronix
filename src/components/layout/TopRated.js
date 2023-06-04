@@ -7,8 +7,8 @@ const TopRated = () => {
   return (
     <div className='mt-[80px] lg:mt-[160px] '>
         <Container>
-        <h2 className='Headding text-[56px] font-bold text-black'>Top Rated Product</h2>
-        <div className='flex flex-wrap gap-y-2 xl:gap-y-2  justify-between mt-[80px] '>
+        <h2 className="Headding text-[30px] lg:text-[40px] 2xl:text-[56px] font-bold text-black text-center">Top Rated Product</h2>
+        <div className='flex flex-wrap gap-y-5 2xl:gap-y-2  justify-between mt-10 2xl:mt-[80px] '>
             <div className='border border-solid border-primary rounded-[32px] p-8 text-center'>
                 <img className='mx-auto' src={TopImg} alt="" />
                 <div className='text-center mt-8'>
